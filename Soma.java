@@ -14,6 +14,7 @@ public class Soma {
 
         double soma = calculoX + calculoY;
         System.out.println("Soma de calculo 1 com calculo 2 = " + soma);
+        scanner.close();
     }
 }
 
