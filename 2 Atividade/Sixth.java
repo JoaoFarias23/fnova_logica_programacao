@@ -10,6 +10,7 @@ public class Sixth {
         Matcher pattern = Pattern.compile("\\d{3}\\.\\d{3}\\.\\d{3}-\\d{2}").matcher(cpf);
         if (pattern.matches()) {
             System.out.println("CPF válido");
+            return;
         }  
             System.out.println("CPF inválido");
 
